@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.sign-up-container {
+	border: 1px solid;
+	border-color: black;
+	background: #fff;
+	border-radius: 4px;
+	padding: 10px;
+	width: 350px;
+	margin: 50px auto;
+}
+
+.page-header {
+	float: right;
+}
+
+.login-signup {
+	margin: 10px;
+	text-decoration: none;
+	float: right;
+}
+
+.login-signup a {
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.signup-heading {
+	font-size: 2em;
+	font-weight: bold;
+	padding-top: 60px;
+	text-align: center;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.row {
+	margin: 15px 0px;
+	text-align: center;
+}
+
+.form-label {
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+input.input-box-330 {
+	width: 250px;
+}
+
+.sign-up-container .error {
+	color: #ee0000;
+	padding: 0px;
+	background: none;
+	border: #ee0000;
+}
+
+.sign-up-container .error-field {
+	border: 1px solid #d96557;
+}
+
+.sign-up-container .error:before {
+	content: '*';
+	padding: 0 3px;
+	color: #D8000C;
+}
+
+.error-msg {
+	padding-top: 10px;
+	color: #D8000C;
+	text-align: center;
+}
+
+.success-msg {
+    padding-top: 10px;
+	color: #176701;
+	text-align: center;
+}
+
+input.btn {
+	width: 250px
+}
+
+.signup-align {
+	margin: 0 auto;
+}
+
+.page-content {
+	font-weight: bold;
+	padding-top: 60px;
+	text-align: center;
+	width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins';
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: none;
+    background-size: cover;
+    background-position: center;
+}
+img{
+    max-width: 20%;
+    max-height: 50%;
+    margin-left: -110px;
+    }
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    size: 50%;
+    width: 100%;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase; 
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #fbeaab;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+    
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.content h1{
+    font-size: 130px;
+    margin-top: 80px;
+    color: #fbeaab;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    color: black;
+}
+button{
+    width:  200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid white;
+    background: transparent;
+    color: #fbeaab;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1 ;
+    transition: 0.5;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border-color: #fbeaab;
+}
+.signuphead{
+    color: #fbeaab;
+    position: center;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+}
+.signupbio{
+    color: #fbeaab;
+    position: center;
+    text-align: center;
+    font-size: 30px;
+}
+.embedded-label {
+    position: relative;
+}
+
+.embedded-label label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    pointer-events: none; 
+}
+.embedded-label input {
+    padding: 5px;
+    padding-left: 60px; 
+}
+.termsAndPrivacy{
+    color: #fbeaab;
+}
+.rememberMeBox{
+    margin-bottom: 15px;
+    color: #fbeaab;
+    accent-color: #fbeaab;
+    border: 10px;
+    border: black;
+    background-color: white;
+}
+.signupForm{
+    text-align: center;
+    margin-top: 100px;
+}
+.pinionir{
+    color: #fbeaab;
+    font-size: 50px;
+    margin-left: -80px;
+}
+.container{
+    display: grid;
+    justify-content: space-between;
+    grid-gap: 10px;
+    justify-content: center;
+}
+.loginSingupTextBox{
+    width: 150px; 
+    height: 20px;
+}
+.logout-button{
+	text-decoration: none;
+	position: absolute; 
+    top: 0; 
+    right: 0; 
+	margin: 20px;
+	margin-right: 30px;
+	padding: 5px;
+	border: 2px solid;
+	border-color: black;
+	border-radius: 10px;
+	color: black;
+}
+.logout-button:hover{
+	background-color: lightgrey;
+}
